@@ -8,8 +8,8 @@
 #import <Foundation/Foundation.h>
 
 #ifdef COCOAPODS
-	#import "DropboxSDK.h"
-	#import "DBDeltaEntry.h"
+	#import <Dropbox_iOS_SDK_Source/DropboxSDK.h>
+	#import <Dropbox_iOS_SDK_Source/DBDeltaEntry.h>
 #else
 	#import <DropboxSDK/DropboxSDK.h>
 	#import <DropboxSDK/DBDeltaEntry.h>
